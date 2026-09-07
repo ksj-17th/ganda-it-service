@@ -32,9 +32,9 @@ Demo user:
 | ID | PW | Description |
 | --- | --- | --- |
 | `admin` | `1234` | Admin Privilage |
-| alice | `1234` | Test Account |
-| deployer | `1234` | Vendor Employee |
-| hospital | `1234` | Hospital IT Manager |
+| `alice` | `1234` | Test Account |
+| `deployer` | `1234` | Vendor Employee |
+| `hospital` | `1234` | Hospital IT Manager |
 
 ## Useful log commands
 
