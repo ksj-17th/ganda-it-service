@@ -32,17 +32,17 @@ Demo user:
 | ID | PW | Description |
 | --- | --- | --- |
 | `admin` | `1234` | Admin Privilage |
-| alice | `1234` | Test Account |
-| deployer | `1234` | Vendor Employee |
-| hospital | `1234` | Hospital IT Manager |
+| `alice` | `1234` | Test Account |
+| `deployer` | `1234` | Vendor Employee |
+| `hospital` | `1234` | Hospital IT Manager |
 
 ## Useful log commands
 
 ```bash
-tail -f /opt/shield-secure-transfer/logs/nginx/access.log
-tail -f /opt/shield-secure-transfer/logs/mft/DMZ_WEB.log
-tail -f /opt/shield-secure-transfer/logs/mft/DMZ_ISAPI.log
-tail -f /opt/shield-secure-transfer/logs/mft/syslog-mft.log
+tail -f /opt/ganda-it-service/logs/nginx/access.log
+tail -f /opt/ganda-it-service/logs/mft/DMZ_WEB.log
+tail -f /opt/ganda-it-service/logs/mft/DMZ_ISAPI.log
+tail -f /opt/ganda-it-service/logs/mft/syslog-mft.log
 ```
 
 Audit DB:
