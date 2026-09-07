@@ -82,4 +82,12 @@ $RECYCLE.BIN/
 logs/mft/*.log
 logs/nginx/*.log
 
+app/storage/*
+!app/storage/f_841d26962eca7b5a.bin
+!app/storage/f_a5b3bb76a2a2c305.bin
+!app/storage/f_b7f1dbf150f2081b.bin
+!app/storage/f_e21aa6441ced5c11.bin
+
+app/public/uploads
+
 # custom area end
