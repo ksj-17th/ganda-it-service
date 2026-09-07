@@ -39,10 +39,10 @@ Demo user:
 ## Useful log commands
 
 ```bash
-tail -f /opt/shield-secure-transfer/logs/nginx/access.log
-tail -f /opt/shield-secure-transfer/logs/mft/DMZ_WEB.log
-tail -f /opt/shield-secure-transfer/logs/mft/DMZ_ISAPI.log
-tail -f /opt/shield-secure-transfer/logs/mft/syslog-mft.log
+tail -f /opt/ganda-it-service/logs/nginx/access.log
+tail -f /opt/ganda-it-service/logs/mft/DMZ_WEB.log
+tail -f /opt/ganda-it-service/logs/mft/DMZ_ISAPI.log
+tail -f /opt/ganda-it-service/logs/mft/syslog-mft.log
 ```
 
 Audit DB:
