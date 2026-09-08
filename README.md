@@ -1,4 +1,6 @@
-# MOVEit-inspired MFT Lab
+# Ganda-It
+
+> 간다 간다 파일 간다잇-!
 
 Training-only vulnerable Managed File Transfer lab. The application stack is simplified to Linux + nginx + PHP-FPM + MySQL, while the attack and logging flow is inspired by the 2023 MOVEit incident.
 
@@ -25,7 +27,7 @@ docker compose down -v
 docker compose up --build -d
 ```
 
-Open: `http://127.0.0.1:8080`
+Open: `http://localhost`
 
 Demo user:
 
@@ -48,8 +50,7 @@ tail -f /opt/ganda-it-service/logs/mft/syslog-mft.log
 Audit DB:
 
 ```bash
-docker compose exec db mysql -umft -pmftpass mft \
-  -e "SELECT event_time,username,event_type,target,remote_ip,success FROM audit_logs ORDER BY id;"
+docker compose exec db mysql -umft -pmftpass mft -e "SELECT event_time,username,event_type,target,remote_ip,success FROM audit_logs ORDER BY id;"
 ```
 
 Binary logs:
