@@ -37,6 +37,7 @@ services:
       - ./app/src:/var/www/src:ro
       - ./app/storage:/var/www/storage
       - ./logs/mft:/var/log/mft
+      - ./uploads:/var/www/html/uploads
     depends_on:
       db:
         condition: service_healthy
