@@ -59,7 +59,7 @@ INSERT INTO files(owner_id,original_name,storage_name) VALUES
 (2,'Q3_contract.pdf','f_841d26962eca7b5a.bin'),
 (3,'partner_price.xlsx','f_b7f1dbf150f2081b.bin'),
 (1,'incident_contacts.txt','f_a5b3bb76a2a2c305.bin'),
-(3,'installer.exe','f_e21aa6441ced5c11.bin');
+(3,'MyApp_Setup_1.0.exe','f_e21aa6441ced5c11.bin');
 
 INSERT INTO shares(file_id,token,active) VALUES
 (1,'7f7f00fc1ae7bb71950a80f335b227f40777db1effba6375',1),
