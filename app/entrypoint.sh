@@ -7,7 +7,7 @@ chmod -R 775 /var/log/mft /var/www/storage
 
 RUN mkdir -p /var/www/html/uploads \
     && chown -R www-data:www-data /var/www/html/uploads \
-    && chmod 755 /var/www/html/uploads
+    && chmod 777 /var/www/html/uploads
 
 # rsyslog creates /dev/log for PHP's syslog() calls.
 rsyslogd
